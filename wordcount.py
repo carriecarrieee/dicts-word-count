@@ -18,7 +18,8 @@ def get_word_counts(text):
         for word in list_of_words:
             word_counts[word] = word_counts.get(word, 0) + 1
 
-    print word_counts
+            quantity = word_counts[word]
+            print word, quantity
 
 
 get_word_counts("test.txt")
